@@ -47,7 +47,7 @@ class B_generator_halo(B_generator):
     """
     def __init__(self, grid=None, box=None, resolution=None,
                  grid_type='cartesian', default_parameters={},
-                 dtype=np.float):
+                 dtype=float):
 
         super(B_generator_halo, self).__init__(
                                         grid=grid,
