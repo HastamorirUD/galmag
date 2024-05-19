@@ -30,7 +30,7 @@ class B_generator(object):
     """
     def __init__(self, grid=None, box=None, resolution=None,
                  grid_type='cartesian', default_parameters={},
-                 dtype=np.float):
+                 dtype=float):
 
         self.dtype = dtype
         self._init_default_parameters(default_parameters)
