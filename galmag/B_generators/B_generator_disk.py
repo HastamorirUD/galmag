@@ -63,7 +63,7 @@ class B_generator_disk(B_generator):
     """
     def __init__(self, grid=None, box=None, resolution=None,
                  grid_type='cartesian', default_parameters={},
-                 dtype=np.float):
+                 dtype=float):
 
         super(B_generator_disk, self).__init__(
                                         grid=grid,
