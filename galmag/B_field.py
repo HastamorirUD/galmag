@@ -49,7 +49,7 @@ class B_field_component(object):
     """
     def __init__(self, grid, x=None, y=None, z=None, r_spherical=None,
                  r_cylindrical=None, theta=None, phi=None, copy=True,
-                 dtype=np.dtype(np.float), generator=None, parameters={}):
+                 dtype=np.dtype(float), generator=None, parameters={}):
 
         assert(isinstance(grid, Grid))
         self.grid = grid
