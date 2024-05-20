@@ -42,8 +42,8 @@ class Grid(object):
     """
     def __init__(self, box, resolution, grid_type='cartesian'):
 
-        self.box = np.empty((3, 2), dtype=np.float)
-        self.resolution = np.empty((3,), dtype=np.int)
+        self.box = np.empty((3, 2), dtype=float)
+        self.resolution = np.empty((3,), dtype=int)
 
         # use numpy upcasting of scalars and dtype conversion
         self.box[:] = box
