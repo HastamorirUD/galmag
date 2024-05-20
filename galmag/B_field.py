@@ -285,7 +285,7 @@ class B_field(object):
 
         self.dtype = dtype
         self.box = np.empty((3, 2), dtype=self.dtype)
-        self.resolution = np.empty((3,), dtype=np.int)
+        self.resolution = np.empty((3,), dtype=int)
         # Uses numpy upcasting of scalars and dtype conversion
         self.grid_type = grid_type
         self.box[:] = box
