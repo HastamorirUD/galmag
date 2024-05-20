@@ -281,7 +281,7 @@ class B_field(object):
 
     """
     def __init__(self, box, resolution, grid_type='cartesian',
-                 dtype=np.float, **kwargs):
+                 dtype=float, **kwargs):
 
         self.dtype = dtype
         self.box = np.empty((3, 2), dtype=self.dtype)
